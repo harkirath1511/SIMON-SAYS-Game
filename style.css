@@ -1,0 +1,93 @@
+.body{
+    height:100%;
+    width:100%;
+    text-align: center;
+    border: 0.01px white solid;
+}
+h1{
+    margin-top: 14px;
+    font-size: 40px;
+    color:black;
+    text-decoration: underline darkblue dashed;
+}
+h2{
+    margin-top:40px;
+    margin-bottom:90px;
+    font-size:24px;
+}
+.outer{
+    height:540px;
+    width:600px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    margin-left:30%
+}
+.one{
+    height:200px;
+    width:200px;
+    background-color:chartreuse ;
+    border-radius : 30px;
+    border: 4px black solid;
+    box-shadow: 1px 1px 5px black;
+}
+.one:hover{
+    box-shadow: 3px 3px 12px black;
+}
+.two{
+    height:200px;
+    width:200px;
+    background-color:deeppink ;
+    border-radius : 30px;
+    border: 4px black solid;
+    box-shadow: 1px 1px 5px black;
+}
+.two:hover{
+    box-shadow: 3px 3px 12px black;
+}
+.three{
+    height:200px;
+    width:200px;
+    background-color:deepskyblue ;
+    border-radius : 30px;
+    border: 4px black solid;
+    box-shadow: 1px 1px 5px black;
+}
+.three:hover{
+    box-shadow: 3px 3px 12px black;
+}
+.four{
+    height:200px;
+    width:200px;
+    background-color:yellow ;
+    border-radius : 30px;
+    border: 4px black solid;
+    box-shadow: 1px 1px 5px black;
+}
+.four:hover{
+    box-shadow: 3px 3px 12px black;
+}
+.inpStyle{
+    background-color: black;
+}
+.outStyle{
+    background-color: white;
+}
+.out{
+    background-color: red;
+    border: 1px red solid;
+}
+.hsd{
+    height:100px;
+   width :100px;
+   position:fixed;
+   top :70px;
+   right :70px;
+    background-color :rgba(0,255,255,0.3);
+   border:6px solid aqua;
+   border-radius :10px;
+   padding: 50px;
+}
+
